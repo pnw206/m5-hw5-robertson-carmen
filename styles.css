@@ -1,0 +1,41 @@
+body {
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/45degreee_fabric.png");
+    background-repeat: repeat;
+}
+
+header {
+    Margin: 20px 20px
+    font-size: 24px
+    background-color: solid black
+}
+#linkbar {
+    background-color: rgb(47, 45, 45);
+    font-size: 20px;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 50px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    
+  }
+#linked {
+    background-color: #0072b1;
+}
+#stack {
+    background-color: #F47F24;
+}
+#git {
+    background-color: #171515;
+}
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
