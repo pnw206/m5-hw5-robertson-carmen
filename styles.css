@@ -94,6 +94,7 @@ footer {
 .connect {
     background-color: whitesmoke;
     padding: 10px;
+    font-size: 18px;
 }
 
 .about {
@@ -134,4 +135,8 @@ footer {
 
 h2 {
     color: #428aa5;
+}
+
+.connect > h2 {
+    font-size: 20px;
 }
