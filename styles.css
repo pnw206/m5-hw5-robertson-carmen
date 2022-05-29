@@ -2,7 +2,6 @@ body {
     max-width: 900px;
     margin: auto;
     font-family: Arial, Helvetica, sans-serif;
-    align-content: center;
 }
 
 #body {
@@ -16,26 +15,13 @@ header {
     max-width: 700px;
 }
 
-main {
-    float: left;
-    max-width: 700px;
-}
-
-.connect::after {
-    content: "";
-    clear: both;
-    display: block;
-}
-
 #linkbar {
-    float: left;
-    background-color: grey;
     margin: 0;
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/45degreee_fabric.png");
+    background-repeat: repeat;
+    max-width: 700px;
+    max-height: 100px;
 }  
-
-img {
-    float: left;
-}
 
 #git {
     background-color: #171515;
@@ -55,23 +41,19 @@ a.link {
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 50px;
     color: cornflowerblue;
-    padding: 15px 30px;
-    align-content: center;
 }
 
 main {
-    font-size: 20px;
-    background-color: whitesmoke;
+    font-size: 14px;
     padding: 10px;
     max-width: 700px;
+    border: 10px;
 }
 
 #linkbar {
-    background-color: aliceblue;
     font-size: 22px;
-    max-width: 700px;
 }
 
 .fa {
@@ -92,20 +74,21 @@ footer {
 }
 
 .connect {
-    background-color: whitesmoke;
-    padding: 10px;
-    font-size: 18px;
+    padding: 5px;
+    font-size: 16px;
+    max-width: 200px;
+    max-height: 100px;
 }
 
 .about {
     background-color: #428aa5; 
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 10px 27px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 12px;
     border-radius: 12px;
 }
 
@@ -113,11 +96,11 @@ footer {
     background-color: #428aa5; 
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 10px 27px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 12px;
     border-radius: 12px;
 }
 
@@ -125,11 +108,11 @@ footer {
     background-color: #428aa5; 
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 10px 27px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 12px;
     border-radius: 12px;
 }
 
@@ -139,4 +122,39 @@ h2 {
 
 .connect > h2 {
     font-size: 20px;
+}
+
+.skills > p {
+    background-color: whitesmoke;
+}
+
+.intro > p {
+    background-color: whitesmoke;
+}
+
+img {
+    float: left;
+}
+
+#linkbar {
+    float: right;
+}
+
+main {
+    float: left;
+}
+
+.connect {
+    float: right;
+    max-width: 180px;
+}
+
+aside::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+footer {
+    float: left;
 }
