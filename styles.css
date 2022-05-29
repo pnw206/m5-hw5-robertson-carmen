@@ -28,7 +28,7 @@ main {
 }
 
 #linkbar {
-    float: right;
+    float: left;
     background-color: grey;
     margin: 0;
 }  
@@ -69,7 +69,7 @@ main {
 }
 
 #linkbar {
-    background-color: rgb(114, 114, 177);
+    background-color: aliceblue;
     font-size: 22px;
     max-width: 700px;
 }
@@ -94,4 +94,44 @@ footer {
 .connect {
     background-color: whitesmoke;
     padding: 10px;
+}
+
+.about {
+    background-color: #428aa5; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+}
+
+.portfolio {
+    background-color: #428aa5; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+}
+
+.contact {
+    background-color: #428aa5; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+}
+
+h2 {
+    color: #428aa5;
 }
